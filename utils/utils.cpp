@@ -10,7 +10,7 @@ void print_vector(const vector<int> v) {
     for (auto i : v) {
         cout << i << " ";
     }
-    cout << endl;
+    cout << endl; 
 }
 
 // print a 2-dim vector
