@@ -32,7 +32,7 @@ public:
         int first = -1, second = -1, index = 0, length = intervals.size();
         
         // we want to find `first` and `second`, enable 
-        // find the left position
+        // find the insert position
         /** TODO: binary search for to O(logn) **/
 
         while(index < length && intervals[index][1] < newInterval[0]) { ++index; }
