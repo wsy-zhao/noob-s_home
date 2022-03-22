@@ -96,32 +96,32 @@ CMakeFiles/leetcode.dir/utils/utils.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/utils/utils.cpp.s"
 	E:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\leetcode\utils\utils.cpp -o CMakeFiles\leetcode.dir\utils\utils.cpp.s
 
-CMakeFiles/leetcode.dir/problem/635.cpp.obj: CMakeFiles/leetcode.dir/flags.make
-CMakeFiles/leetcode.dir/problem/635.cpp.obj: ../problem/635.cpp
-CMakeFiles/leetcode.dir/problem/635.cpp.obj: CMakeFiles/leetcode.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\leetcode\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/leetcode.dir/problem/635.cpp.obj"
-	E:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/leetcode.dir/problem/635.cpp.obj -MF CMakeFiles\leetcode.dir\problem\635.cpp.obj.d -o CMakeFiles\leetcode.dir\problem\635.cpp.obj -c D:\code\cpp\leetcode\problem\635.cpp
+CMakeFiles/leetcode.dir/problem/2038.cpp.obj: CMakeFiles/leetcode.dir/flags.make
+CMakeFiles/leetcode.dir/problem/2038.cpp.obj: ../problem/2038.cpp
+CMakeFiles/leetcode.dir/problem/2038.cpp.obj: CMakeFiles/leetcode.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\code\cpp\leetcode\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/leetcode.dir/problem/2038.cpp.obj"
+	E:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/leetcode.dir/problem/2038.cpp.obj -MF CMakeFiles\leetcode.dir\problem\2038.cpp.obj.d -o CMakeFiles\leetcode.dir\problem\2038.cpp.obj -c D:\code\cpp\leetcode\problem\2038.cpp
 
-CMakeFiles/leetcode.dir/problem/635.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/problem/635.cpp.i"
-	E:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\leetcode\problem\635.cpp > CMakeFiles\leetcode.dir\problem\635.cpp.i
+CMakeFiles/leetcode.dir/problem/2038.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/leetcode.dir/problem/2038.cpp.i"
+	E:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\code\cpp\leetcode\problem\2038.cpp > CMakeFiles\leetcode.dir\problem\2038.cpp.i
 
-CMakeFiles/leetcode.dir/problem/635.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/problem/635.cpp.s"
-	E:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\leetcode\problem\635.cpp -o CMakeFiles\leetcode.dir\problem\635.cpp.s
+CMakeFiles/leetcode.dir/problem/2038.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/leetcode.dir/problem/2038.cpp.s"
+	E:\mingw64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\code\cpp\leetcode\problem\2038.cpp -o CMakeFiles\leetcode.dir\problem\2038.cpp.s
 
 # Object files for target leetcode
 leetcode_OBJECTS = \
 "CMakeFiles/leetcode.dir/main.cpp.obj" \
 "CMakeFiles/leetcode.dir/utils/utils.cpp.obj" \
-"CMakeFiles/leetcode.dir/problem/635.cpp.obj"
+"CMakeFiles/leetcode.dir/problem/2038.cpp.obj"
 
 # External object files for target leetcode
 leetcode_EXTERNAL_OBJECTS =
 
 leetcode.exe: CMakeFiles/leetcode.dir/main.cpp.obj
 leetcode.exe: CMakeFiles/leetcode.dir/utils/utils.cpp.obj
-leetcode.exe: CMakeFiles/leetcode.dir/problem/635.cpp.obj
+leetcode.exe: CMakeFiles/leetcode.dir/problem/2038.cpp.obj
 leetcode.exe: CMakeFiles/leetcode.dir/build.make
 leetcode.exe: CMakeFiles/leetcode.dir/linklibs.rsp
 leetcode.exe: CMakeFiles/leetcode.dir/objects1.rsp
