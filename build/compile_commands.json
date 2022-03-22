@@ -8,10 +8,5 @@
   "directory": "D:/code/cpp/leetcode/build",
   "command": "E:\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\leetcode.dir\\utils\\utils.cpp.obj -c D:\\code\\cpp\\leetcode\\utils\\utils.cpp",
   "file": "D:/code/cpp/leetcode/utils/utils.cpp"
-},
-{
-  "directory": "D:/code/cpp/leetcode/build",
-  "command": "E:\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\leetcode.dir\\problem\\2038.cpp.obj -c D:\\code\\cpp\\leetcode\\problem\\2038.cpp",
-  "file": "D:/code/cpp/leetcode/problem/2038.cpp"
 }
 ]

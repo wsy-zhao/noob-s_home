@@ -152,30 +152,6 @@ main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-problem/2038.obj: problem/2038.cpp.obj
-.PHONY : problem/2038.obj
-
-# target to build an object file
-problem/2038.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/problem/2038.cpp.obj
-.PHONY : problem/2038.cpp.obj
-
-problem/2038.i: problem/2038.cpp.i
-.PHONY : problem/2038.i
-
-# target to preprocess a source file
-problem/2038.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/problem/2038.cpp.i
-.PHONY : problem/2038.cpp.i
-
-problem/2038.s: problem/2038.cpp.s
-.PHONY : problem/2038.s
-
-# target to generate assembly for a file
-problem/2038.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\leetcode.dir\build.make CMakeFiles/leetcode.dir/problem/2038.cpp.s
-.PHONY : problem/2038.cpp.s
-
 utils/utils.obj: utils/utils.cpp.obj
 .PHONY : utils/utils.obj
 
@@ -212,9 +188,6 @@ help:
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
-	@echo ... problem/2038.obj
-	@echo ... problem/2038.i
-	@echo ... problem/2038.s
 	@echo ... utils/utils.obj
 	@echo ... utils/utils.i
 	@echo ... utils/utils.s
