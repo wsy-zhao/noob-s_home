@@ -5,25 +5,6 @@
 
 using namespace std;
 
-// print a 1-dim vector
-void print_vector(const vector<int> v) {
-    for (auto i : v) {
-        cout << i << " ";
-    }
-    cout << endl; 
-}
-
-// print a 2-dim vector
-void print_matrix(const vector<vector<int>> m) {
-    for (auto v : m) {
-        for (auto i : v) {
-            cout << i << " ";
-        }
-        cout << endl;
-    }
-    cout << endl;
-}
-
 // preorder traversal of a 2-ary tree from the root node, recursion approach
 vector<int> preorderTraversal(TreeNode* root) {
     if (root != nullptr) {
@@ -89,7 +70,7 @@ void traversal(TreeNode* root, int method) {
         cout << "Method not exit" << endl;
         break;
     }
-    print_vector(res);
+   //  print_vector(res);
     cout << "Traversal Over" << endl;
 
 }

@@ -135,16 +135,9 @@ CMakeFiles/leetcode.dir/main.cpp.obj: ../main.cpp \
   E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_bvector.h \
   E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/vector.tcc \
   ../utils/utils.h \
-  ../problem/57.cpp \
-  E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/algorithm \
-  E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/utility \
-  E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_relops.h \
-  E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_algo.h \
-  E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/algorithmfwd.h \
-  E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_heap.h \
-  E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_tempbuf.h \
-  E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/uniform_int_dist.h \
-  E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/limits
+  ../problem/682.cpp \
+  E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/numeric \
+  E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_numeric.h
 
 CMakeFiles/leetcode.dir/utils/utils.cpp.obj: ../utils/utils.cpp \
   ../utils/utils.h \
@@ -346,8 +339,6 @@ E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstdlib:
 
 E:/mingw64/x86_64-w64-mingw32/include/_mingw.h:
 
-E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/algorithm:
-
 E:/mingw64/x86_64-w64-mingw32/include/_mingw_mac.h:
 
 E:/mingw64/x86_64-w64-mingw32/include/vadefs.h:
@@ -387,8 +378,6 @@ E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/exception.h:
 E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_pair.h:
 
 E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/cxxabi_init_exception.h:
-
-E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_tempbuf.h:
 
 E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/typeinfo:
 
@@ -550,24 +539,14 @@ E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_vector.h:
 
 E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_bvector.h:
 
-../problem/57.cpp:
-
 E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/vector.tcc:
 
 ../utils/utils.h:
 
-E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/utility:
+../problem/682.cpp:
 
-E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_relops.h:
+E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/numeric:
 
-E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_algo.h:
-
-E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/algorithmfwd.h:
-
-E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_heap.h:
-
-E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/uniform_int_dist.h:
-
-E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/limits:
+E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_numeric.h:
 
 ../utils/utils.cpp:

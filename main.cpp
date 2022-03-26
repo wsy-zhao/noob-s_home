@@ -1,20 +1,14 @@
 #include <iostream>
 #include <vector>
+#include <string>
 #include ".\utils\utils.h"
-#include ".\problem\57.cpp"
+#include ".\problem\682.cpp"
 using namespace std;
 
 int main(){
-    Solution s;
-    // vector<vector<int>> intervals = { {1,2}, {3,5}, {6,7}, {8,10}, {12,16}};
-    // vector<int> newInterval = {4,8};
-    // vector<vector<int>> intervals = { {1,3}, {6,9}};
-    // vector<int> newInterval = {2,5};
-    // vector<vector<int>> intervals = { {1,5}};
-    // vector<int> newInterval = {2,7};
-    vector<vector<int>> intervals = { {1,5}};
-    vector<int> newInterval = {0,0};
-    vector<vector<int>> ans = s.insert(intervals, newInterval);
-    print_matrix(ans);
+    vector<int> a = {1,2,3,4,5,6,7,8,9};
+    vector<vector<int>> b = {{1,2,3},{4,5,6},{7,8,9}};
+    print_vector(a);
+    print_matrix(b);
     return 0;
 }

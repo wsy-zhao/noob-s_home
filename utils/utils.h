@@ -2,6 +2,7 @@
 #define UTILS_H
 #include <vector>
 #include <string>
+#include <iostream>
 
 // defination of a 2-ary tree
 struct TreeNode {
@@ -48,8 +49,25 @@ public:
     std::vector<int> preorder(Node *);
 };
 
-void print_vector(const std::vector<int>);
-void print_matrix(const std::vector<std::vector<int>>);
+// print a 1-dim vector
+template<typename T>
+void print_vector(const std::vector<T> &a){
+    for (T i : a){
+        std::cout << i <<" ";
+    }
+    std::cout << std::endl;
+}
+
+// print a 2-dim vector
+template<typename T>
+void print_matrix(const std::vector<std::vector<T>> &a){
+    for (std::vector<T> i : a){
+        for (T j : i){
+            std::cout << j << " ";
+        }
+        std::cout << std::endl;
+    }
+}
 
 std::vector<int> preorderTraversal(TreeNode*);
 std::vector<int> postorderTraversal(TreeNode*);
