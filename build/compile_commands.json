@@ -1,12 +1,12 @@
 [
 {
-  "directory": "D:/code/cpp/leetcode/build",
-  "command": "E:\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\leetcode.dir\\main.cpp.obj -c D:\\code\\cpp\\leetcode\\main.cpp",
-  "file": "D:/code/cpp/leetcode/main.cpp"
+  "directory": "D:/Code/cpp/leetcode/build",
+  "command": "E:\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\leetcode.dir\\main.cpp.obj -c D:\\Code\\cpp\\leetcode\\main.cpp",
+  "file": "D:/Code/cpp/leetcode/main.cpp"
 },
 {
-  "directory": "D:/code/cpp/leetcode/build",
-  "command": "E:\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\leetcode.dir\\utils\\utils.cpp.obj -c D:\\code\\cpp\\leetcode\\utils\\utils.cpp",
-  "file": "D:/code/cpp/leetcode/utils/utils.cpp"
+  "directory": "D:/Code/cpp/leetcode/build",
+  "command": "E:\\mingw64\\bin\\g++.exe   -g -o CMakeFiles\\leetcode.dir\\utils\\utils.cpp.obj -c D:\\Code\\cpp\\leetcode\\utils\\utils.cpp",
+  "file": "D:/Code/cpp/leetcode/utils/utils.cpp"
 }
 ]

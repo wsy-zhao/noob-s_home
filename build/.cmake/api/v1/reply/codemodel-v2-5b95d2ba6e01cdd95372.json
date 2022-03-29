@@ -44,8 +44,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "D:/code/cpp/leetcode/build",
-		"source" : "D:/code/cpp/leetcode"
+		"build" : "D:/Code/cpp/leetcode/build",
+		"source" : "D:/Code/cpp/leetcode"
 	},
 	"version" : 
 	{

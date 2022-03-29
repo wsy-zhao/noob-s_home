@@ -131,6 +131,4 @@ CMakeFiles/leetcode.dir/main.cpp.obj: D:\code\cpp\leetcode\main.cpp \
  E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_vector.h \
  E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_bvector.h \
  E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/vector.tcc \
- D:/code/cpp/leetcode/utils/utils.h D:/code/cpp/leetcode/problem/682.cpp \
- E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/numeric \
- E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_numeric.h
+ D:/code/cpp/leetcode/utils/utils.h D:/code/cpp/leetcode/problem/2024.cpp

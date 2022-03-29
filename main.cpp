@@ -2,13 +2,13 @@
 #include <vector>
 #include <string>
 #include ".\utils\utils.h"
-#include ".\problem\682.cpp"
+#include ".\problem\2024.cpp"
 using namespace std;
 
 int main(){
-    vector<int> a = {1,2,3,4,5,6,7,8,9};
-    vector<vector<int>> b = {{1,2,3},{4,5,6},{7,8,9}};
-    print_vector(a);
-    print_matrix(b);
+    Solution s;
+    string answerKey = "TFTF";
+    int k = 2;
+    cout << s.maxConsecutiveAnswers(answerKey, k) << endl;
     return 0;
 }

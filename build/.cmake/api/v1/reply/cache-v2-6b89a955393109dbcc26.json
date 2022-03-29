@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "d:/code/cpp/leetcode/build"
+			"value" : "d:/Code/cpp/leetcode/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -1255,7 +1255,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "D:/code/cpp/leetcode/build"
+			"value" : "D:/Code/cpp/leetcode/build"
 		},
 		{
 			"name" : "LEETCODE_SOURCE_DIR",
@@ -1267,7 +1267,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "D:/code/cpp/leetcode"
+			"value" : "D:/Code/cpp/leetcode"
 		}
 	],
 	"kind" : "cache",
