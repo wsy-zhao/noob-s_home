@@ -135,27 +135,18 @@ CMakeFiles/leetcode.dir/main.cpp.obj: ../main.cpp \
   E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_bvector.h \
   E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/vector.tcc \
   ../utils/utils.h \
-  ../problem/1606.cpp \
-  E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/set \
-  E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_tree.h \
+  ../problem/242.cpp \
+  E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/unordered_map \
   E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/ext/aligned_buffer.h \
-  E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_set.h \
-  E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_multiset.h \
-  E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/queue \
-  E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/deque \
-  E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_deque.h \
-  E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/deque.tcc \
-  E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_heap.h \
-  E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_queue.h \
-  E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/uses_allocator.h \
-  E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/algorithm \
+  E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/hashtable.h \
+  E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/hashtable_policy.h \
+  E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tuple \
   E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/utility \
   E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_relops.h \
-  E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_algo.h \
-  E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/algorithmfwd.h \
-  E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_tempbuf.h \
-  E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/uniform_int_dist.h \
-  E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/limits
+  E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/array \
+  E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/uses_allocator.h \
+  E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/invoke.h \
+  E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/unordered_map.h
 
 CMakeFiles/leetcode.dir/utils/utils.cpp.obj: ../utils/utils.cpp \
   ../utils/utils.h \
@@ -357,8 +348,6 @@ E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/cstdlib:
 
 E:/mingw64/x86_64-w64-mingw32/include/_mingw.h:
 
-E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/algorithm:
-
 E:/mingw64/x86_64-w64-mingw32/include/_mingw_mac.h:
 
 E:/mingw64/x86_64-w64-mingw32/include/vadefs.h:
@@ -399,8 +388,6 @@ E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_pair.h:
 
 E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/cxxabi_init_exception.h:
 
-E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_tempbuf.h:
-
 E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/typeinfo:
 
 E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_iterator_base_funcs.h:
@@ -420,6 +407,8 @@ E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_algobase.h:
 E:/mingw64/x86_64-w64-mingw32/include/sys/types.h:
 
 E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/cpp_type_traits.h:
+
+E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/tuple:
 
 E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/predefined_ops.h:
 
@@ -466,8 +455,6 @@ E:/mingw64/x86_64-w64-mingw32/include/errno.h:
 E:/mingw64/x86_64-w64-mingw32/include/process.h:
 
 E:/mingw64/x86_64-w64-mingw32/include/corecrt_startup.h:
-
-E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_set.h:
 
 E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed/limits.h:
 
@@ -569,38 +556,24 @@ E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/vector.tcc:
 
 ../utils/utils.h:
 
-../problem/1606.cpp:
+../problem/242.cpp:
 
-E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/set:
+E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/unordered_map:
 
-E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_tree.h:
+E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/hashtable.h:
 
-E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_multiset.h:
-
-E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/queue:
-
-E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/deque:
-
-E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/deque.tcc:
-
-E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_deque.h:
-
-E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_heap.h:
-
-E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_queue.h:
-
-E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/uses_allocator.h:
+E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/hashtable_policy.h:
 
 E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/utility:
 
 E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_relops.h:
 
-E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_algo.h:
+E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/array:
 
-E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/algorithmfwd.h:
+E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/uses_allocator.h:
 
-E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/uniform_int_dist.h:
+E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/invoke.h:
 
-E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/limits:
+E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/unordered_map.h:
 
 ../utils/utils.cpp:
