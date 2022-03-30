@@ -52,21 +52,25 @@ public:
 // print a 1-dim vector
 template<typename T>
 void print_vector(const std::vector<T> &a){
+    std::cout<< "[ ";
     for (T i : a){
         std::cout << i <<" ";
     }
-    std::cout << std::endl;
+    std::cout << "]" << std::endl;
 }
 
 // print a 2-dim vector
 template<typename T>
 void print_matrix(const std::vector<std::vector<T>> &a){
+    std::cout << "[ ";
     for (std::vector<T> i : a){
+        std::cout << "[ ";
         for (T j : i){
             std::cout << j << " ";
         }
-        std::cout << std::endl;
+        std::cout << "]" <<std::endl;
     }
+    std::cout << " ]" << std::endl;
 }
 
 std::vector<int> preorderTraversal(TreeNode*);
