@@ -162,3 +162,11 @@ void swap(int* a, int* b) {
     *a = *b;
     *b = tmp;
 }
+
+void print_list(ListNode * head){
+    while(head != nullptr){
+        cout << head->val << " ";
+        head = head->next;
+    }
+    cout << endl;
+}

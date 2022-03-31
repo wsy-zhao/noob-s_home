@@ -4,6 +4,15 @@
 #include <string>
 #include <iostream>
 
+// Definition for singly-linked list.
+struct ListNode {
+    int val;
+    ListNode *next;
+    ListNode() : val(0), next(nullptr) {}
+    ListNode(int x) : val(x), next(nullptr) {}
+    ListNode(int x, ListNode *next) : val(x), next(next) {}
+};
+
 // defination of a 2-ary tree
 struct TreeNode {
     int val;
@@ -72,6 +81,8 @@ void print_matrix(const std::vector<std::vector<T>> &a){
     }
     std::cout << " ]" << std::endl;
 }
+
+void print_list(ListNode * );
 
 std::vector<int> preorderTraversal(TreeNode*);
 std::vector<int> postorderTraversal(TreeNode*);
