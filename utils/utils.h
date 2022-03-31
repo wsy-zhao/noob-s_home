@@ -71,7 +71,7 @@ void print_vector(const std::vector<T> &a){
 // print a 2-dim vector
 template<typename T>
 void print_matrix(const std::vector<std::vector<T>> &a){
-    std::cout << "[ ";
+    
     for (std::vector<T> i : a){
         std::cout << "[ ";
         for (T j : i){
@@ -79,7 +79,6 @@ void print_matrix(const std::vector<std::vector<T>> &a){
         }
         std::cout << "]" <<std::endl;
     }
-    std::cout << " ]" << std::endl;
 }
 
 void print_list(ListNode * );

@@ -3,7 +3,6 @@ using namespace std;
 
 class Solution {
 public:
-    
     int islandPerimeter(vector<vector<int>>& grid) {
         int width = grid[0].size(), height = grid.size(), perimeter = 0;
         for (int i = 0; i < height; i++){
