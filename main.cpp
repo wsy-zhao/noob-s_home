@@ -5,31 +5,14 @@
 // #include ".\problem\476.cpp"
 using namespace std;
 
-// template<typename T> 
-// ostream &operator<<(ostream &os, const vector<T> &v){
-//     os << "[ ";
-//     for (T i : v){
-//         os << i << " "; 
-//     }
-//     os << "]" << endl;
-//     return os;
-// }
-
-// template<typename T>
-// ostream &operator<<(ostream &os, const vector<vector<T>> &v){
-//     for (vector<T> i : v){
-//         os << "[ ";
-//         for (T j : i){
-//             os << j << " ";
-//         }
-//         os << "]" << endl;
-//     }
-//     return os;
-// }
-
 int main(){
+    ListNode l5(5, nullptr);
+    ListNode l4(4, &l5);
+    ListNode l3(3, &l4);
+    ListNode l2(2, &l3);
+    ListNode l1(1, &l2);
     vector<int> v1 = {1,2,3,4,5,6,7,8,9};
-    vector<vector<int>> v2 = { {1,2,3}, {4,5,6}, {7,8,9} };
-    cout << v1 << v2;
+    vector<vector<int>> v2 = { {1,2,3},{4,5,6},{7,8,9} };
+    cout << &l1 << endl << v1 << endl <<v2;
     return 0;
 }

@@ -58,18 +58,18 @@ public:
     std::vector<int> preorder(Node *);
 };
 
-// print a 1-dim vector
+// write a 1-dim vector into ostream 
 template<typename T> 
 std::ostream &operator<<(std::ostream &os, const std::vector<T> &v){
     os << "[ ";
     for (T i : v){
         os << i << " "; 
     }
-    os << "]" << std::endl;
+    os << "]";
     return os;
 }
 
-// print a 2-dim vector
+// write a 2-dim vector into ostream
 template<typename T>
 std::ostream &operator<<(std::ostream &os, const std::vector<std::vector<T>> &v){
     for (std::vector<T> i : v){
@@ -94,4 +94,6 @@ std::string multiply(std::string, std::string);
 void swap(int*, int*);
 void swap(int&, int&);
 
+// write a LinkedList into ostream
+std::ostream &operator<<(std::ostream &, ListNode *);
 #endif

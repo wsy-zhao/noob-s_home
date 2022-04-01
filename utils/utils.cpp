@@ -1,7 +1,7 @@
 #include "utils.h"
-#include <iostream>
-#include <vector>
-#include <string>
+// #include <iostream>
+// #include <vector>
+// #include <string>
 
 using namespace std;
 
@@ -163,10 +163,10 @@ void swap(int* a, int* b) {
     *b = tmp;
 }
 
-void print_list(ListNode * head){
-    while(head != nullptr){
-        cout << head->val << " ";
+ostream &operator<<(ostream &os, ListNode *head){
+    while (head){
+        os << head->val << " ";
         head = head->next;
     }
-    cout << endl;
+    return os;
 }
