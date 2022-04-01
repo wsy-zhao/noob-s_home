@@ -59,26 +59,27 @@ public:
 };
 
 // print a 1-dim vector
-template<typename T>
-void print_vector(const std::vector<T> &a){
-    std::cout<< "[ ";
-    for (T i : a){
-        std::cout << i <<" ";
+template<typename T> 
+std::ostream &operator<<(std::ostream &os, const std::vector<T> &v){
+    os << "[ ";
+    for (T i : v){
+        os << i << " "; 
     }
-    std::cout << "]" << std::endl;
+    os << "]" << std::endl;
+    return os;
 }
 
 // print a 2-dim vector
 template<typename T>
-void print_matrix(const std::vector<std::vector<T>> &a){
-    
-    for (std::vector<T> i : a){
-        std::cout << "[ ";
+std::ostream &operator<<(std::ostream &os, const std::vector<std::vector<T>> &v){
+    for (std::vector<T> i : v){
+        os << "[ ";
         for (T j : i){
-            std::cout << j << " ";
+            os << j << " ";
         }
-        std::cout << "]" <<std::endl;
+        os << "]" << std::endl;
     }
+    return os;
 }
 
 void print_list(ListNode * );
