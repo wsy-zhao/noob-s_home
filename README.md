@@ -11,5 +11,6 @@ problem --direction
 build --direction
   * build by cmake
 
-.vs --direction
+.vs, .vscode --direction
  * build for visual code 
+
