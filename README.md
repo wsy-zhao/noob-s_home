@@ -8,5 +8,8 @@ utils --direction
 problem --direction 
   * leetcode problem
 
-else --else
+build --direction
   * build by cmake
+
+.vs --direction
+ * build for visual code 
