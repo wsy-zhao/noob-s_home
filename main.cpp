@@ -13,6 +13,6 @@ int main(){
     ListNode l1(1, &l2);
     vector<int> v1 = {1,2,3,4,5,6,7,8,9};
     vector<vector<int>> v2 = { {1,2,3},{4,5,6},{7,8,9} };
-    cout << &l1 << endl << v1 << endl <<v2;
+    cout << &l1 << endl << v1 << endl << v2 << endl;
     return 0;
 }

@@ -72,12 +72,13 @@ std::ostream &operator<<(std::ostream &os, const std::vector<T> &v){
 // write a 2-dim vector into ostream
 template<typename T>
 std::ostream &operator<<(std::ostream &os, const std::vector<std::vector<T>> &v){
-    for (std::vector<T> i : v){
+    size_t size_v = v.size();
+    for (int i = 0; i < size_v; ){
         os << "[ ";
-        for (T j : i){
+        for (T j : v[i]){
             os << j << " ";
         }
-        os << "]" << std::endl;
+        os << "]" << (++i == size_v ? "" : "\n");
     }
     return os;
 }
