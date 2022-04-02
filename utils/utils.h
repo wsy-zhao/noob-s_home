@@ -70,6 +70,18 @@ std::ostream &operator<<(std::ostream &os, const std::vector<T> &v){
 }
 
 // write a 2-dim vector into ostream
+// another version, more interesting !!!! 
+template<typename T>
+std::ostream &operator<<(std::ostream &os, const std::vector<std::vector<T>> &v){
+    size_t size_v = v.size();
+    for (int i = 0; i < size_v; ){
+        os << v[i] << (++i == size_v ? "" : "\n");
+    }
+    return os;
+}
+
+/* write a 2-dim vector into ostream
+ * previous version
 template<typename T>
 std::ostream &operator<<(std::ostream &os, const std::vector<std::vector<T>> &v){
     size_t size_v = v.size();
@@ -82,6 +94,7 @@ std::ostream &operator<<(std::ostream &os, const std::vector<std::vector<T>> &v)
     }
     return os;
 }
+*/
 
 void print_list(ListNode * );
 
