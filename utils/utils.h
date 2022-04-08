@@ -3,6 +3,7 @@
 #include <vector>
 #include <string>
 #include <iostream>
+#include <algorithm>
 
 // Definition for singly-linked list.
 struct ListNode {
@@ -59,6 +60,7 @@ public:
 };
 
 // write a 1-dim vector into ostream 
+// 并不严谨， 如果`T`是一个容器呢 
 template<typename T> 
 std::ostream &operator<<(std::ostream &os, const std::vector<T> &v){
     os << "[ ";
@@ -110,4 +112,22 @@ void swap(int&, int&);
 
 // write a LinkedList into ostream
 std::ostream &operator<<(std::ostream &, ListNode *);
+
+class DisjointSetUnion{
+private:
+    std::vector<int> parent, rank;
+
+public:
+    DisjointSetUnion(int);
+    int find(int);
+    bool construct(int, int);
+};
+
+struct Edge {
+    int len, x, y;
+    Edge(int len, int x, int y) : len(len), x(x), y(y) {
+    }
+};
+
+int kruskal(std::vector<std::vector<int>> &);
 #endif

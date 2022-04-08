@@ -41,7 +41,6 @@ public:
         while(index < length && intervals[index][1] < newInterval[1]) { ++index; };
         second = index;
         
-
         // overlap and expand
         // intercept by single point
         if (first == second){

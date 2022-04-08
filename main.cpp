@@ -1,22 +1,18 @@
 #include <iostream>
 #include <vector>
 #include <string>
+#include <bitset>
 #include ".\utils\utils.h"
-#include ".\problem\307.cpp"
+#include ".\problem\429.cpp"
 using namespace std;
 
 int main(){
-    vector<int> nums = {0,9,5,7,3};
-    NumArray obj(nums);
-    cout << obj.sumRange(4,4) << endl;
-    cout << obj.sumRange(2,4) << endl;
-    cout << obj.sumRange(3,3) << endl;
-    obj.update(4,5);
-    obj.update(1,7);
-    obj.update(0,8);
-    cout << obj.sumRange(1,2) << endl;
-    obj.update(1,9);
-    cout << obj.sumRange(4,4) << endl;
-    obj.update(3,4);
+    Solution s;
+    Node n2(2), n6(6), n14(14), n12(12), n13(13), n10(10);
+    Node n11(11, {&n14}), n8(8, {&n12}), n9(9, {&n13});
+    Node n7(7, {&n11}), n4(4, {&n8}), n5(5, {&n9, &n10});
+    Node n3(3, {&n6, &n7});
+    Node n1(1, {&n2, &n3, &n4, &n5});
+    cout << s.levelOrder(&n1) << endl;
     return 0;
 }
