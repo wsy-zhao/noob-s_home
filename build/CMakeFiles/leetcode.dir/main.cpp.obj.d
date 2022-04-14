@@ -151,4 +151,6 @@ CMakeFiles/leetcode.dir/main.cpp.obj: D:\Code\cpp\leetcode\main.cpp \
  E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/uses_allocator.h \
  E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/invoke.h \
  E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/unordered_set.h \
- D:/Code/cpp/leetcode/problem/72.cpp D:/Code/cpp/leetcode/utils/utils.h
+ D:/Code/cpp/leetcode/problem/1672.cpp D:/Code/cpp/leetcode/utils/utils.h \
+ E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/numeric \
+ E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_numeric.h
