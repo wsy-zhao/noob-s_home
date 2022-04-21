@@ -154,10 +154,10 @@ CMakeFiles/leetcode.dir/main.cpp.obj: ../main.cpp \
   E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/uses_allocator.h \
   E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/invoke.h \
   E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/unordered_set.h \
-  ../problem/1672.cpp \
-  ../utils/utils.h \
-  E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/numeric \
-  E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_numeric.h
+  E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/unordered_map \
+  E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/unordered_map.h \
+  ../problem/824.cpp \
+  ../utils/utils.h
 
 CMakeFiles/leetcode.dir/utils/utils.cpp.obj: ../utils/utils.cpp \
   ../utils/utils.h \
@@ -310,7 +310,9 @@ CMakeFiles/leetcode.dir/utils/utils.cpp.obj: ../utils/utils.cpp \
   E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/array \
   E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/uses_allocator.h \
   E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/invoke.h \
-  E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/unordered_set.h
+  E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/unordered_set.h \
+  E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/unordered_map \
+  E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/unordered_map.h
 
 
 E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/istream:
@@ -493,6 +495,8 @@ E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed/limits.h:
 
 E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed/syslimits.h:
 
+../problem/824.cpp:
+
 E:/mingw64/x86_64-w64-mingw32/include/signal.h:
 
 E:/mingw64/x86_64-w64-mingw32/include/pthread_signal.h:
@@ -619,10 +623,8 @@ E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/uses_allocator.h:
 
 E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/invoke.h:
 
-../problem/1672.cpp:
+E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/unordered_map:
 
-E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/numeric:
-
-E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_numeric.h:
+E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/unordered_map.h:
 
 ../utils/utils.cpp:

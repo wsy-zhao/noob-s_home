@@ -3,15 +3,11 @@
 #include <string>
 #include <bitset>
 #include ".\utils\utils.h"
-#include ".\problem\1672.cpp"
+#include ".\problem\824.cpp"
 using namespace std;
 
 int main(){
     Solution s;
-    vector<vector<int>> accounts = {
-        {1,2,3},
-        {3,2,1}
-    };
-    cout << s.maximumWealth(accounts) << endl;
+    cout << s.toGoatLatin("I speak Goat Latin") << endl;
     return 0;
 }
