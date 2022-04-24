@@ -3,12 +3,11 @@
 #include <string>
 #include <bitset>
 #include ".\utils\utils.h"
-#include ".\problem\396.cpp"
+#include ".\problem\868.cpp"
 using namespace std;
 
 int main(){
     Solution s;
-    vector<int> vec = {1,2,3,4,5,6,7,8,9,10};
-    cout << s.maxRotateFunction(vec) << endl;
+    cout << s.binaryGap(22) << endl;
     return 0;
 }
