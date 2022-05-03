@@ -45,6 +45,44 @@ public:
     }
 };
 
+
+// Definition for a QuadTree node.
+class QuadNode {
+public:
+    bool val;
+    bool isLeaf;
+    QuadNode* topLeft;
+    QuadNode* topRight;
+    QuadNode* bottomLeft;
+    QuadNode* bottomRight;
+    
+    QuadNode() {
+        val = false;
+        isLeaf = false;
+        topLeft = NULL;
+        topRight = NULL;
+        bottomLeft = NULL;
+        bottomRight = NULL;
+    }
+    
+    QuadNode(bool _val, bool _isLeaf) {
+        val = _val;
+        isLeaf = _isLeaf;
+        topLeft = NULL;
+        topRight = NULL;
+        bottomLeft = NULL;
+        bottomRight = NULL;
+    }
+    
+    QuadNode(bool _val, bool _isLeaf, QuadNode* _topLeft, QuadNode* _topRight, QuadNode* _bottomLeft, QuadNode* _bottomRight) {
+        val = _val;
+        isLeaf = _isLeaf;
+        topLeft = _topLeft;
+        topRight = _topRight;
+        bottomLeft = _bottomLeft;
+        bottomRight = _bottomRight;
+    }
+};
 // postorder traversal of a N-ary tree from the root node, recursion approach
 class postorder4N{
 public:

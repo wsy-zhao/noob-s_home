@@ -155,4 +155,4 @@ CMakeFiles/leetcode.dir/main.cpp.obj: D:\Code\cpp\leetcode\main.cpp \
  E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/unordered_map.h \
  E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/numeric \
  E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_numeric.h \
- D:/Code/cpp/leetcode/problem/868.cpp D:/Code/cpp/leetcode/utils/utils.h
+ D:/Code/cpp/leetcode/problem/304.cpp

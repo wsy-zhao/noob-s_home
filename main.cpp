@@ -1,13 +1,17 @@
 #include <iostream>
 #include <vector>
 #include <string>
-#include <bitset>
-#include ".\utils\utils.h"
-#include ".\problem\868.cpp"
+#include <unordered_map>
 using namespace std;
 
+class Solution {
+public:
+    int countDistinct(vector<int>& nums, int k, int p) {
+        int pos
+    }
+};
+
 int main(){
-    Solution s;
-    cout << s.binaryGap(22) << endl;
+    
     return 0;
 }
