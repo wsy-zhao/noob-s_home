@@ -8,6 +8,7 @@
 #include <unordered_map>
 #include <algorithm>
 #include <numeric>
+#include <queue>
 // Definition for singly-linked list.
 struct ListNode {
     int val;
