@@ -162,7 +162,7 @@ CMakeFiles/leetcode.dir/main.cpp.obj: ../main.cpp \
   E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_deque.h \
   E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/deque.tcc \
   E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_queue.h \
-  ../problem/442.cpp \
+  ../problem/942.cpp \
   ../utils/utils.h
 
 CMakeFiles/leetcode.dir/utils/utils.cpp.obj: ../utils/utils.cpp \
@@ -650,6 +650,6 @@ E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_deque.h:
 
 E:/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/bits/stl_queue.h:
 
-../problem/442.cpp:
+../problem/942.cpp:
 
 ../utils/utils.cpp:
